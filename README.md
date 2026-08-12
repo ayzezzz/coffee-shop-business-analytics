@@ -3,6 +3,12 @@
 End-to-end sales analysis of a three-location coffee shop chain — from raw
 transaction data to SQL-driven insights and an interactive Tableau dashboard.
 
+## 📊 Interactive Dashboard
+
+**[View Dashboard on Tableau Public →](https://public.tableau.com/views/CoffeeShopSalesBusinessAnalytics/RevenuebyStore)**
+
+![Coffee Shop Sales Dashboard](dashboard/dashboard.png)
+
 ## Overview
 
 This project analyzes 149,116 point-of-sale transactions across three New
