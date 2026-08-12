@@ -1,40 +1,44 @@
-# ☕ Coffee Shop Business Analytics
+# Coffee Shop Business Analytics
 
-An end-to-end data analytics project exploring coffee shop sales performance using **Python, SQL, and Tableau**.
+End-to-end sales analysis of a three-location coffee shop chain — from raw
+transaction data to SQL-driven insights and an interactive Tableau dashboard.
 
-## Interactive Dashboard
+## Overview
 
-**[View Dashboard on Tableau Public →](https://public.tableau.com/views/CoffeeShopSalesBusinessAnalytics/RevenuebyStore)**
+This project analyzes 149,116 point-of-sale transactions across three New
+York coffee shop locations (Hell's Kitchen, Lower Manhattan, Astoria) over
+six months (January–June 2023). The goal was to go beyond a single chart and
+build a full analytics workflow: explore the data with Python and SQL, and
+surface the findings in a dashboard a store manager could actually use.
 
-![Coffee Shop Sales Dashboard](dashboard/dashboard.png)
+**Key findings:**
 
-## Project Overview
+- Hell's Kitchen generated the highest revenue of the three locations
+- Coffee is the best-performing product category, ahead of tea and bakery
+- Sales peak in the 9:00–11:00 AM window
+- Revenue is relatively stable across weekdays, with no single day dominating
 
-This project analyzes **149,116 coffee shop transactions** from January to June 2023.
-
-The analysis focuses on:
-
-- Store and product performance
-- Revenue and sales trends
-- Peak sales hours
-- Product category performance
-- Key business KPIs
-
-## Tools
-
-**Python · Pandas · SQL · Tableau**
-
-## Key Insights
-
-- **Hell's Kitchen** generated the highest revenue.
-- **Coffee** was the best-performing product category.
-- **10:00 AM** was the peak revenue hour.
-- Revenue remained relatively stable across weekdays.
-
-## Project Structure
+## Repository Structure
 
 ```text
-dashboard/    → Tableau workbook & dashboard preview
-data/         → Raw and cleaned datasets
-notebooks/    → Python analysis
-sql/          → SQL business analysis
+coffee-shop-business-analytics/
+│
+├── dashboard/
+│   ├── coffee_shop_sales.twbx
+│   └── dashboard.png
+│
+├── data/
+│   ├── Coffee Shop Sales.xlsx
+│   └── coffee_shop_cleaned.csv
+│
+├── notebooks/
+│   └── coffee_shop_analysis.ipynb
+│
+├── sql/
+│   ├── product_analysis.sql
+│   ├── sales_kpis.sql
+│   ├── sales_trends.sql
+│   ├── store_analysis.sql
+│   ├── store_category_analysis.sql
+│   ├── store_performance.sql
+│   └── top_products.sql
